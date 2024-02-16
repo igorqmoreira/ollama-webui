@@ -63,3 +63,4 @@ COPY --from=build /app/build /app/build
 COPY ./backend .
 
 CMD [ "bash", "start.sh"]
+EXPOSE 8080
